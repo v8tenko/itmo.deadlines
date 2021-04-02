@@ -1,16 +1,13 @@
 package com.example.itmodeadlines.activities
 
-import android.app.DatePickerDialog
-import android.app.TimePickerDialog
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.itmodeadlines.R
-import data.DataHelper
+import com.example.itmodeadlines.data.DataHelper
 import kotlinx.android.synthetic.main.new_event_activity.*
-import ui.GroupsRecyclerViewAdapter
+import com.example.itmodeadlines.ui.GroupsRecyclerViewAdapter
 import java.util.*
 
 class NewEventActivity: AppCompatActivity() {

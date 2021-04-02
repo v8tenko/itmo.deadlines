@@ -7,14 +7,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.core.animation.doOnEnd
-import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.itmodeadlines.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import data.DataHelper
-import ui.DaysRecyclerViewAdapter
-import ui.SwipeToDeleteCallback
+import com.example.itmodeadlines.data.DataHelper
+import com.example.itmodeadlines.ui.DaysRecyclerViewAdapter
 
 class MainActivity : AppCompatActivity() {
 
