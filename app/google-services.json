@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "220102008595",
+    "firebase_url": "https://itmo-deadlines-cd65e-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "itmo-deadlines-cd65e",
+    "storage_bucket": "itmo-deadlines-cd65e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220102008595:android:6ba2698bef7fd5dc7e04e6",
+        "android_client_info": {
+          "package_name": "com.example.itmodeadlines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220102008595-res0sv4176aucctor55ut9v3e5drd362.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMsxGMK1R79CEWjqJEjNcC76C99WAjaO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220102008595-res0sv4176aucctor55ut9v3e5drd362.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

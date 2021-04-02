@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   android:layout_marginBottom="10dp"
+                                                   android:animateLayoutChanges="true"
+                                                   android:background="@drawable/rounded_layout"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/day_of_week"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_marginStart="15dp"
+            android:id="@+id/tv_days_day"
+    />
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_days_day"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/rv_days_subjects"
+            tools:listitem="@layout/event_title_layout"
+            tools:itemCount="3"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

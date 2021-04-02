@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Itmo.deadlines</string>
+    <string name="day_of_week">
+        <u>2 апреля, вторник</u>
+    </string>
+    <string name="new_event">Новое событие</string>
+    <string name="event">Предмет</string>
+    <string name="description">Описание</string>
+    <string name="groups_list">Для групп</string>
+    <string name="create">Создать</string>
+</resources>
